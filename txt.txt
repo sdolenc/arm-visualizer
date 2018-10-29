@@ -1,0 +1,14 @@
+arm-visualizer/src$ grep -i -I -r "import.*arm-visualizer-engine" > ../txt.txt
+
+classes
+app/+designer/diagram/shared/diagram-edge.model.ts:import { Resource } from 'arm-visualizer-engine';
+app/+designer/diagram/shared/diagram-node.model.ts:import { Resource } from 'arm-visualizer-engine';
+
+icon/name
+app/shared/template/resource.service.ts:import { Resource } from 'arm-visualizer-engine';
+
+load (arm) template, get resources, get dependencies
+app/shared/template/template.service.ts:import { Resource, Template, TemplateEngine } from 'arm-visualizer-engine';
+
+visual display (entrypoint for above files)
+app/+designer/diagram/shared/diagram.service.ts:import { Resource } from 'arm-visualizer-engine';
